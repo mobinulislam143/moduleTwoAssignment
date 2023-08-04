@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!-- ---------Task 1-------- -->
+        <div class="task4 text-center">
+            <h1 class="text-center">Task-1</h1>
+            <div id="myDiv">Do you know who i am???</div>
+            <button id="myButton" class="btn btn-primary">Click me!</button>
+        </div>
+        <hr>
+
+
+        <!-- ---------Task 2-------- -->
+        <div class="task2 text-center">
+            <h1 class="text-center">Task-2</h1>
+            </hr>
+            <h2 class="f" id="count">0</h2>
+            <button type="button" class="btn btn-outline-danger" onclick="prev()">Decreement</button>
+            <button type="button" class="btn btn-outline-success" onclick="next()">Increement</button>
+        </div>
+        <hr>
+        <!-- ---------Task 3-------- -->
+
+        <div class="task3 text-center mt-5">
+            <h1 class="text-center">Task-3</h1>
+            <img id="image" src="image1.jpg" alt="Image 1"><br>
+            <button type="button" onclick="firstBtn()" class="btn btn-outline-success ">Show Image 1</button>
+            <button type="button" onclick="scndBtn()" class="btn btn-outline-danger ">Show Image 2</button>
+
+        </div>
+        <hr>
+        <!-- ---------Task 4-------- -->
+
+        <div class="task4 text-center mt-5">
+            <h1 class="text-center">Task-4</h1>
+            </hr>
+            <button type="button" style="color: rgb(33, 0, 98); font-weight: bold;" class="btn btn-outline-warning" onclick="fetchData()">Click to Fetch Data</button>
+            <p id="golog"></p>
+        </div>
+        <hr>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
